@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="css/style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Playball&display=swap" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap" rel="stylesheet">
+
+
+  <!--So I came up with the name HappyPaws but as I was searching for sources, I found out there is already a HappyPaw website with a different website concept-->
+  <title>HappyPaws AE</title>
+
+
+  <!-- this shows the logo in the tab on the browser -->
+  <link rel="icon" href="Media/web logo.png">
+
+</head>
+
+<body>
+  <!--website logo which is found in the top right corner-->
+  <img class="logo" src="Media/web logo.png" alt="Home Page">
+
+  <h1>HappyPaws</h1> <!--heading 1-->
+  <h2> With love for all pets</h2>
+
+
+  <div class="navbar"> <!--this is div classed as navbar to properly create a navbar in the website-->
+
+    <!--these are html file links to connect each web page together using <a href>-->
+    <a href="html/contact.html"> Contact Us</a>
+    <a href="html/about us.html">About Us</a>
+    <a href="index.html ">Home</a>
+
+    <!--Here is how i created my dropdown button by first creating a div class-->
+    <div class="dropdown">
+
+      <!--Using the <button> makes it a functioning button-->
+      <button class="dropbutton">DOGS & PUPPIES </button>
+      <!-- and along the button i made a dropdown option with contents-->
+      <div class="dropcontent">
+        <a href="html/dogbreed.html">🐾 Learn By Dog Breed</a>
+        <a href="html/trainingdog.html">🐾 Training</a>
+        <!--these are the contents inside the dropdown button i created at the navbar-->
+        <a href="html/nutrifeedingdog.html">🐾 Nutrition And Feeding</a>
+      </div>
+    </div>
+    <!--this contains the same functions with different contents-->
+    <div class="dropdown">
+      <button class="dropbutton">CATS & KITTENS
+
+      </button>
+      <div class="dropcontent">
+        <a href="html/catbreed.html">🐾 Learn By Cat Breed</a>
+        <a href="html/trainingcat.html">🐾 Training</a>
+        <a href="html/nutrifeedingcat.html">🐾 Nutrition And Feeding</a>
+      </div>
+    </div>
+  </div>
+
+  <h3>Bringing Happiness to Every Paw and Whisker!</h3>
+
+  <!--here is the first picture seen in my home page-->
+  <img class="introPic" src="Media/cats and dogs.jpeg"> <!--i use image class to make it easier to adjust in css-->
+
+  <div class="intro"> <!--This is the introduction on the home page-->
+    <div class="color-bg">
+      <p> Welcome Fur Parents! At HappyPaws, we firmly believe that animals brighten our lives with incredible joy,
+        unwavering love, and a special kind of connection. We are here to help and support you every step of the
+        journey,
+        whether you are an experienced pet parent or are thinking about adopting a furry friend for the first time.
+        <br> <br>
+        Discover a variety of information about pet health,
+        training, nutrition, and behavior to make sure you're giving
+        your beloved pets the best possible life.
+      </p>
+    </div>
+  </div>
+
+</body>
+
+
+
+</html>

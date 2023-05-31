@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="../css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Playball&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap" rel="stylesheet">
+
+    <!--So I came up with the name HappyPaws but as I was searching for sources, I found out there is already a HappyPaw website with a different website concept-->
+    <title>HappyPaws AE</title>
+
+
+    <!-- this shows the logo in the tab on the browser -->
+    <link rel="icon" href="../Media/web logo.png">
+
+</head>
+
+<body>
+    <!--website logo which is found in the top right corner-->
+    <img class="logo" src="../Media/web logo.png" alt="Home Page">
+
+    <h1>HappyPaws</h1> <!--heading 1-->
+    <h2> With love for all pets</h2>
+
+
+    <div class="navbar"> <!--this is div classed as navbar to properly create a navbar in the website-->
+
+        <!--these are html file links to connect each web page together using <a href>-->
+        <a href="../html/contact.html"> Contact Us</a>
+        <a href="../html/about us.html">About Us</a>
+        <a href="../index.html ">Home</a>
+
+        <!--Here is how i created my dropdown button by first creating a div class-->
+        <div class="dropdown">
+
+            <!--Using the <button> makes it a functioning button-->
+            <button class="dropbutton">DOGS & PUPPIES </button>
+            <!-- and along the button i made a dropdown option with contents-->
+            <div class="dropcontent">
+                <a href="../html/dogbreed.html">🐾 Learn By Dog Breed</a>
+                <a href="../html/trainingdog.html">🐾 Training</a>
+                <!--these are the contents inside the dropdown button i created at the navbar-->
+                <a href="../html/nutrifeedingdog.html">🐾 Nutrition And Feeding</a>
+            </div>
+        </div>
+        <!--this contains the same functions with different contents-->
+        <div class="dropdown">
+            <button class="dropbutton">CATS & KITTENS
+
+            </button>
+            <div class="dropcontent">
+                <a href="../html/catbreed.html">🐾 Learn By Cat Breed</a>
+                <a href="../html/trainingcat.html">🐾 Training</a>
+                <a href="../html/nutrifeedingcat.html">🐾 Nutrition And Feeding</a>
+            </div>
+        </div>
+    </div>
+
+
+
+    <h4>Dog Breed Facts And Their Personalities </h4>
+
+    <!-- similarly with the catbreed.html i used the same format and functions for this page aswell-->
+    <div class="dogs">
+        <div class="rows">
+
+
+            <div class="beagle">
+                <img class="dogpics" src="../Media/beagle.jpeg">
+                <div class="box">
+                    <p class="breeds">Beagle</p>
+                    <button class="more-btn">
+                        <a href="../html/learnmore-beagle.html">Learn More ></a>
+                    </button>
+                </div>
+
+            </div>
+
+            <div class="pug">
+                <img class="dogpics" src="../Media/pug.jpeg">
+                <div class="box">
+                    <p class="breeds">Pug</p>
+                    <button class="more-btn">
+                        <a href="../html/learnmore-pug.html">Learn More ></a>
+                    </button>
+                </div>
+
+            </div>
+
+            <div class="french bulldog">
+                <img class="dogpics" src="../Media/french bulldog.avif">
+                <div class="box">
+                    <p class="breeds">French Bulldog</p>
+                    <button class="more-btn">
+                        <a href="../html/learnmore-french.html">Learn More ></a>
+                    </button>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+</body>
+
+</html>
